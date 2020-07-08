@@ -1,0 +1,8 @@
+main: de.gaming12846.heads.main.Main
+name: Heads
+version: 1.0
+api-version: 1.13
+author: Gaming12846
+commands:
+     getHead:
+          description: Give u ur own head or the head from another player
