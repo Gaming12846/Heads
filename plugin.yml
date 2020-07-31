@@ -1,8 +1,13 @@
-main: de.gaming12846.heads.main.Main
 name: Heads
-version: 1.0
-api-version: 1.13
+version: 1.1
+description: A simple plugin to get heads from players and things in Minecraft
 author: Gaming12846
+
+main: de.gaming12846.heads.main.Main
+api-version: 1.13
+
 commands:
-     getHead:
-          description: Give u ur own head or the head from another player
+     gethead:
+          description: Gives you your own head or that of a player
+          aliases: [getheads, gh]
+          usage: Simply type </gethead Player>

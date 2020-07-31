@@ -1,6 +1,10 @@
-message:
-  nopermission: 'You have no permission to do that'
+features:
+  enablegethead: true
+  enableheadrecipe: true
+messages:
+  nopermission: 'You do not have permission to perform this command'
   noconsole: 'The console cannot use this command'
+  unkowncommand: 'Unknown command. Type "/help" for help'
   usagegethead: 'Please use </gethead Player>'
   getownhead: 'You got your own head'
   getplayerhead: 'You got the head from [Player]'
