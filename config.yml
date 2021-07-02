@@ -1,10 +1,9 @@
-features:
-  enablegethead: true
-  enableheadrecipe: true
+# Config for Heads v1.1.1 by Gaming12846 <https://www.spigotmc.org/resources/heads.81202/> <https://github.com/Gaming12846/Heads>
+switches:
+  headRecipeSwitch: true
 messages:
-  nopermission: 'You do not have permission to perform this command'
-  noconsole: 'The console cannot use this command'
-  unkowncommand: 'Unknown command. Type "/help" for help'
-  usagegethead: 'Please use </gethead Player>'
-  getownhead: 'You got your own head'
-  getplayerhead: 'You got the head from [Player]'
+  noPermission: 'You have no permission to do that'
+  noConsole: 'The console cannot use this command'
+  usageGetHead: 'Please use </gethead player>'
+  gotOwnHead: 'You got your own head'
+  gotPlayerHead: 'You got the head from [Player]'
