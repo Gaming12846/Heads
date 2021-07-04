@@ -1,15 +1,14 @@
-/**
- * Heads
- * 
- * @author Gaming12846
- */
-
-package de.gaming12846.heads.utilitys;
+package com.github.gaming12846.heads.utils;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.SkullMeta;
 
+/**
+ * Heads com.github.gaming12846.heads.utils ItemBuilder.java
+ *
+ * @author Gaming12846
+ */
 public class ItemBuilder {
 	// Easy method to create an skull
 	public static ItemStack createSkull(int subid, String name, String owner) {

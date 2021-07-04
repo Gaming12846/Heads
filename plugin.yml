@@ -1,14 +1,14 @@
-main: de.gaming12846.heads.main.Main
 name: Heads
+main: com.github.gaming12846.heads.Heads
 version: 1.1.1
+description: A simple plugin to get heads from players and things in Minecraft
+website: https://www.spigotmc.org/resources/81202/ https://github.com/Gaming12846/Heads https://discord.com/invite/XvK2UMfGEJ
+author: Gaming12846
 api-version: 1.17
 
-description: A simple plugin to get heads from players and things in Minecraft
-author: Gaming12846
-website: https://www.spigotmc.org/resources/heads.81202 https://github.com/Gaming12846/Heads
 
 commands:
-     gethead:
-          description: Gives you your head or another player's head
-          aliases: [gh]
-          usage: Simply type </gethead> or </gethead -playername->
+  gethead:
+    description: Gives you your head or another player's head
+    usage: Simply type </gethead> or </gethead player>
+    aliases: [gh]
