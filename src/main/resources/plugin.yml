@@ -1,0 +1,30 @@
+name: Heads
+version: ${project.version}
+main: com.github.gaming12846.heads.Heads
+api-version: 1.17
+prefix: Heads
+authors: [ Gaming12846 ]
+description: A simple plugin to get heads from players and things in Minecraft
+website: https://www.spigotmc.org/resources/81202/
+
+commands:
+  heads:
+    description: The main command for Heads
+    usage: /heads <version|reload|gethead>
+    aliases: [head]
+
+permissions:
+  heads.reload:
+    description: Allow the use of the '/heads reload' subcommand
+    default: op
+
+  heads.gethead.*:
+    description: Allow the use of the '/heads gethead' subcommand
+    default: op
+    children:
+      geads.gethead.own: true
+      heads.gethead.player: true
+
+  heads.recipe:
+    description: Allow to craft heads
+    default: true
