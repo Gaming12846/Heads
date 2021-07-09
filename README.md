@@ -15,9 +15,10 @@ You always wanted to get your own head or the from any other player? Then you ar
 - Craft heads from players
 
 ## Command
-- /heads <version> - Displays informations and the version of the Heads currently installed on your server
-- /heads <reload> - Reload the plugin's configuration
-- /trollplus <gethead> <player> - Give you your own head or the from any player
+- /heads version - Displays informations and the version of the Heads currently installed on your server
+- /heads reload - Reload the plugin's configuration
+- /heads gethead - Give you your own head
+- /heads gethead player - Give you the head from any player
 
 ## Alias
 - /heads : [/head]
@@ -26,7 +27,7 @@ You always wanted to get your own head or the from any other player? Then you ar
 - heads.reload - Operators - Allow the use of the '/heads reload' subcommand
 - heads.gethead.* - Operators - Allow the full use of the '/heads gethead' subcommand
 - geads.gethead.own - Operators - Allow the use of the '/heads gethead' subcommand
-- heads.gethead.player - Operators - Allow the use of the '/heads gethead <player>' subcommand
+- heads.gethead.player - Operators - Allow the use of the '/heads gethead player' subcommand
 - heads.recipe - All players - Allows the craft of heads
 
 ## Notes
