@@ -22,6 +22,6 @@ public final class VMConstants {
     public static final String PERMISSION_GETHEAD_OWN = "heads.gethead.own";
     public static final String PERMISSION_GETHEAD_PLAYER = "heads.gethead.player";
 
-    public static final String PERMISSION_RECIPE = "heads.recipe";
+    public static final String PERMISSION_HEAD_RECIPE = "heads.recipe";
 
 }

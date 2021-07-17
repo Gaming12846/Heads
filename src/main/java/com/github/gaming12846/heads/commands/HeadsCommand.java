@@ -87,11 +87,11 @@ public final class HeadsCommand implements CommandExecutor {
 
             Player player = (Player) sender;
             if (args.length == 1 && player.hasPermission(VMConstants.PERMISSION_GETHEAD_OWN)) {
-                player.getInventory().addItem(ItemBuilder.createSkull(1, 3, ChatColor.GOLD + player.getName(), player.getName()));
+                player.getInventory().addItem(ItemBuilder.createSkull(1, 3, null, player.getName()));
                 player.sendMessage(VMConstants.PLUGIN_PREFIX + "You got your own head");
 
             } else if (args.length == 2 && player.hasPermission(VMConstants.PERMISSION_GETHEAD_PLAYER)) {
-                player.getInventory().addItem(ItemBuilder.createSkull(1, 3, ChatColor.GOLD + args[1], args[1]));
+                player.getInventory().addItem(ItemBuilder.createSkull(1, 3, null, args[1]));
                 player.sendMessage(VMConstants.PLUGIN_PREFIX + "You got the head from " + ChatColor.BOLD + args[1]);
             }
         }

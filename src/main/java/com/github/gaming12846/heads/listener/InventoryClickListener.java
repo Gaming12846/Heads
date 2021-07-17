@@ -3,13 +3,11 @@ package com.github.gaming12846.heads.listener;
 import com.github.gaming12846.heads.Heads;
 import com.github.gaming12846.heads.utils.ItemBuilder;
 import com.github.gaming12846.heads.utils.VMConstants;
-import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
-import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
 
@@ -27,7 +25,7 @@ public final class InventoryClickListener implements Listener {
     }
 
     @EventHandler
-    private void InventoryClickListener(InventoryClickEvent event) {
+    private void onInventoryClick(InventoryClickEvent event) {
         Player player = (Player) event.getWhoClicked();
 
         // Feature head recipe
@@ -35,7 +33,7 @@ public final class InventoryClickListener implements Listener {
             return;
         }
 
-        if (!player.hasPermission(VMConstants.PERMISSION_RECIPE)) {
+        if (!player.hasPermission(VMConstants.PERMISSION_HEAD_RECIPE)) {
             return;
         }
 
@@ -49,7 +47,7 @@ public final class InventoryClickListener implements Listener {
         }
 
         if (!playerName.isEmpty()) {
-            ItemStack head = ItemBuilder.createSkull(1, 3, ChatColor.GOLD + playerName, playerName);
+            ItemStack head = ItemBuilder.createSkull(1, 3, null, playerName);
 
             ShapedRecipe recipeCreeperHead = new ShapedRecipe(head);
             recipeCreeperHead.shape("CDC", "A A", "AAA");

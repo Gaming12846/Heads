@@ -11,7 +11,7 @@ commands:
   heads:
     description: The main command for Heads
     usage: /heads <version|reload|gethead>
-    aliases: [head]
+    aliases: [ head ]
 
 permissions:
   heads.reload:
