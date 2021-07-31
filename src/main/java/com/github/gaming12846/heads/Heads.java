@@ -9,6 +9,8 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.Objects;
+
 public final class Heads extends JavaPlugin {
 
     @Override
@@ -56,7 +58,7 @@ public final class Heads extends JavaPlugin {
 
     // Register commands
     private void registerCommands() {
-        this.getCommand("heads").setExecutor(new HeadsCommand(this));
+        Objects.requireNonNull(this.getCommand("heads")).setExecutor(new HeadsCommand(this));
     }
 
 }

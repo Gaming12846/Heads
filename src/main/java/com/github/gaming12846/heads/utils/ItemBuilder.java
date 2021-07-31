@@ -11,10 +11,11 @@ import org.bukkit.inventory.meta.SkullMeta;
  */
 public final class ItemBuilder {
 
-    // Create an skull
+    // Create a skull
     public static ItemStack createSkull(int amount, int subId, String name, String owner) {
         ItemStack skull = new ItemStack(Material.PLAYER_HEAD, 1, (short) subId);
         SkullMeta meta = (SkullMeta) skull.getItemMeta();
+        assert meta != null;
         meta.setOwner(owner);
         meta.setDisplayName(name);
         skull.setItemMeta(meta);

@@ -33,7 +33,7 @@ public final class HeadsCommand implements CommandExecutor {
 
         // Version subcommand
         if (args[0].equalsIgnoreCase("version")) {
-            if (args.length < 1 || args.length > 1) {
+            if (args.length != 1) {
                 sender.sendMessage(VMConstants.PLUGIN_PREFIX + ChatColor.RED + "Invalid command syntax! " + ChatColor.WHITE + "Use /" + label + " version");
                 return true;
             }
@@ -53,7 +53,7 @@ public final class HeadsCommand implements CommandExecutor {
 
         // Reload subcommand
         else if (args[0].equalsIgnoreCase("reload")) {
-            if (args.length < 1 || args.length > 1) {
+            if (args.length > 1) {
                 sender.sendMessage(VMConstants.PLUGIN_PREFIX + ChatColor.RED + "Invalid command syntax! " + ChatColor.WHITE + "Use /" + label + " reload");
                 return true;
             }

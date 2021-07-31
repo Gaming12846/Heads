@@ -8,7 +8,7 @@
 
 # Heads
 
-You always wanted to get your own head or the from any other player? Then you are exactly right here! This plugin allows you to get the heads and even craft them.
+You always wanted to get your own head or the head from any other player? Then you are exactly right here! This plugin allows you to get the heads and even craft them.
 
 ## Features
 
@@ -18,7 +18,7 @@ You always wanted to get your own head or the from any other player? Then you ar
 
 ## Commands
 
-- /heads version - Displays informations and the version of the Heads currently installed on your server
+- /heads version - Displays information and the version of the Heads currently installed on your server
 - /heads reload - Reload the plugin's configuration
 - /heads gethead - Give you your own head
 - /heads gethead player - Give you the head from any player

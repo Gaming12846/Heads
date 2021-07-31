@@ -11,6 +11,8 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
 
+import java.util.Objects;
+
 /**
  * Heads com.github.gaming12846.heads.listener InventoryClickListener.java
  *
@@ -41,10 +43,7 @@ public final class InventoryClickListener implements Listener {
             return;
         }
 
-        String playerName = event.getCurrentItem().getItemMeta().getDisplayName();
-        if (playerName == null) {
-            return;
-        }
+        String playerName = Objects.requireNonNull(event.getCurrentItem().getItemMeta()).getDisplayName();
 
         if (!playerName.isEmpty()) {
             ItemStack head = ItemBuilder.createSkull(1, 3, null, playerName);
