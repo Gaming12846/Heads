@@ -40,12 +40,6 @@ This plugin allows you to get the heads and even craft them.
 - **heads.gethead.other** - Operators - Gives access to the /gethead [player] command
 - **heads.headrecipe** - All players - Gives access to craft heads
 
-## Notes
-
-- Always create a new configuration when updating!
-- The plugin collects anonymous statistics if you do not deactivate them.
-  To see the statistics, visit [bStats](https://bstats.org/plugin/bukkit/Heads).
-
 ## To-do list
 
 - Nothing, because the plugin is cancelled for now
@@ -53,6 +47,12 @@ This plugin allows you to get the heads and even craft them.
 ## Standard recipe for the crafting of heads
 
 ![Standard recipe for the crafting of heads](https://up.picr.de/45725442jc.png)
+
+## Notes
+
+- Always create a new configuration when updating!
+- The plugin collects anonymous statistics if you do not deactivate them.
+  To see the statistics, visit [bStats](https://bstats.org/plugin/bukkit/Heads).
 
 ## Need help?
 
