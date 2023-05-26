@@ -1,0 +1,32 @@
+# This is the custom language config file for Heads.
+# If you want to translate the plugin, use this file.
+# If you want, you can send me your translated language config file and I can add it to the plugin.
+# This language config was generated for version ${project.version}.
+# Language config by:
+
+############################Global###########################
+
+metrics-enabled: ""
+
+checking-updates: ""
+no-update-available: ""
+update-available: ""
+unable-check-updates: ""
+
+no-permission: ""
+no-console: ""
+invalid-syntax: ""
+invalid-syntax-use: ""
+
+#########################"Heads" command#####################
+
+heads-version: ""
+heads-developer: ""
+heads-plugin-website: ""
+heads-report-bugs: ""
+heads-reload: ""
+
+########################"Gethead" command####################
+
+gethead-own-head: ""
+gethead-target-head: ""

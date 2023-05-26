@@ -1,0 +1,30 @@
+# This is the english language config file for Heads.
+# This language config was generated for version ${project.version}.
+# Language config by: Gaming12846
+
+############################Global###########################
+
+metrics-enabled: "Enabling plugin metrics"
+
+checking-updates: "Checking for updates ..."
+no-update-available: "There is no new update available"
+update-available: "A new update is available! To download it visit SpigotMC:"
+unable-check-updates: "Unable to check for updates:"
+
+no-permission: "You do not have sufficient permissions to execute this command"
+no-console: "command cannot be used from the console"
+invalid-syntax: "Invalid command syntax!"
+invalid-syntax-use: "Use /"
+
+#########################"Heads" command#####################
+
+heads-version: "Version:"
+heads-developer: "Developer:"
+heads-plugin-website: "Plugin website:"
+heads-report-bugs: "Report bugs to:"
+heads-reload: "Configurations were successfully reloaded"
+
+########################"Gethead" command####################
+
+gethead-own-head: "You have received your own head"
+gethead-target-head: "You have received the head of"

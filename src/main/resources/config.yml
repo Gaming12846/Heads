@@ -1,0 +1,44 @@
+#############################################################
+#*---------------------------------------------------------*#
+#|                          Heads                          |#
+#*---------------------------------------------------------*#
+#############################################################
+
+# This is the config file for Heads.
+# This config was generated for version ${project.version}.
+
+# If you need help, you can send me a message on SpigotMC.
+
+#####################Global settings#########################
+
+# Set the language for the plugin, available options are custom and en.
+language: en
+
+# Enable the metrics.
+metrics-enabled: true
+# Enable the update checker.
+check-for-updates: true
+
+######################Plugin settings########################
+
+# Enable the head recipe.
+head-recipe: true
+# The head recipe can be adapted as desired.
+# There must be a material in each slot, and the X slot is the element that sets the owner for the head.
+# Here is a list of valid materials that you must write in capital letters: https://minecraft-ids.grahamedgecombe.com.
+# +-----------+
+# | A | X | B |
+# +-----------+       +---+
+# | C | D | E |  -->  |   |
+# +-----------+       +---+
+# | F | G | H |
+# +-----------+
+head-recipe-X: PAPER
+head-recipe-A: IRON_INGOT
+head-recipe-B: IRON_INGOT
+head-recipe-C: CLAY
+head-recipe-D: REDSTONE
+head-recipe-E: CLAY
+head-recipe-F: CLAY
+head-recipe-G: CLAY
+head-recipe-H: CLAY
