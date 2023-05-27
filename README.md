@@ -47,6 +47,7 @@ This plugin allows you to get the heads and even craft them.
 ## Standard recipe for the crafting of heads
 
 ![Standard recipe for the crafting of heads](https://up.picr.de/45725442jc.png)
+
 On the paper must be the name of the player from whom you want the head.
 
 ## Notes
