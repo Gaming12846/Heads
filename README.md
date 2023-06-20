@@ -65,7 +65,8 @@ Feel free to send me a message on SpigotMC.
 Bugs and suggestions should be reported
 by [opening a ticket on GitHub](https://github.com/Gaming12846/Heads/issues).
 
-It took a while to create this plugin. So if you find it useful or fun, I would appreciate a nice review on SpigotMC.
+It took me a while to create this plugin. So if you find it useful or fun, I would appreciate a nice review on SpigotMC
+and a star on GitHub.
 
 ## License
 

@@ -1,7 +1,7 @@
 name: Heads
 version: '${project.version}'
 main: de.gaming12846.heads.Heads
-api-version: 1.19
+api-version: '1.13'
 prefix: Heads
 author: Gaming12846
 description: A simple plugin to get heads of players in Minecraft
