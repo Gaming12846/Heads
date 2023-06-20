@@ -40,7 +40,6 @@ public final class InventoryClickListener implements Listener {
             return;
 
         String playerName = event.getCurrentItem().getItemMeta().getDisplayName();
-        player.sendMessage(playerName);
         if (!playerName.isEmpty()) {
             if (key != null) plugin.getServer().removeRecipe(key);
 
